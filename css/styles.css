@@ -45,7 +45,6 @@ color: #2E2F42;
 
 .contact-mail {
 
-font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
@@ -57,7 +56,6 @@ color: #434455;
 }
 .contact-phone {
 
-font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
@@ -98,6 +96,10 @@ cursor: pointer;
     background-color: #404BBF;
 }
 
+.team {
+    background: #F4F4FD;
+}
+
 .data {
     
     font-weight: 500;
@@ -109,7 +111,6 @@ color: #2E2F42;
 
 .text {
 
-font-weight: 400;
 font-size: 16px;
 line-height: 1.5px;
 letter-spacing: 0.02em;
@@ -126,6 +127,10 @@ color: #434455;
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #2E2F42;
+}
+
+.footer-part {
+    background-color: #2E2F42;;
 }
 
 .btn-item-all {
@@ -164,7 +169,6 @@ cursor: pointer;
 
 .inscription--on-img {
 
-    font-weight: 400;
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0.02em;
@@ -186,7 +190,7 @@ color: #2E2F42;
  
 
 .data-text {
-font-weight: 400;
+    
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
