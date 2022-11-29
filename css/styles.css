@@ -5,6 +5,8 @@
     --text-color: #434455;
     --title-color: #2E2F42;
     --second-text-color: #FFFFFF; 
+    --dominant-color: #F4F4FD;
+    --footer-text-color:  #E7E9FC;
     }
     
     .list {
@@ -45,7 +47,7 @@
     align-items: center;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #F4F4FD;
+    color: var(--dominant-color);
     
     }
     .menu-link {
@@ -115,7 +117,7 @@
     }
     
     .team {
-        background: #F4F4FD;
+        background: var(--dominant-color);
     }
     
     .data {
@@ -124,7 +126,7 @@
         font-size: 20px;
         line-height: 1.2;
     letter-spacing: 0.02em;
-    color: var(--title-color)
+    color: var(--title-color);
         }
     
     .text {
@@ -132,7 +134,7 @@
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--text-color)
+    color: var(--text-color);
     
     }
     
@@ -148,14 +150,14 @@
     }
     
     .footer-part {
-        background-color: #2E2F42;;
+        background-color: var(--title-color);
     }
     
     .footer-text {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #E7E9FC;
+    color: var(--footer-text-color);
     
     }
     
@@ -184,7 +186,7 @@
     text-align: center;
     letter-spacing: 0.04em;
     color: var(--primary--color);
-    background: #F4F4FD;
+    background: var(--dominant-color);
     cursor: pointer;
     }
     
